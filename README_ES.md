@@ -45,7 +45,7 @@ require_once "PATH/TO/LIBRARY/custom_loader.php"
 $_iMiConf = new \VZenix\Configuration\Configuration();
 ```
 
-## Modo de uso
+## Ejemplos
 
 Ejemplo 1: Sin precarga de información
 
