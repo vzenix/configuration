@@ -1,0 +1,40 @@
+{
+    "name": "vzenix/configuration",
+    "description": "This is a library for managing simplified configuration parameters.",
+    "version": "1.0.0",
+    "type": "library",
+    "homepage": "http://libraries.vzenix.es/en/configuration/",
+    "time": "2017-03-18",
+    "license": "GNU General Public License v3",
+    "authors": [
+        {
+            "name": "Francisco Muros Espadas",
+            "email": "paco@vzenix.es",
+            "homepage": "http://vzenix.es/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "library.configuration@vzenix.es"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.0.*"
+    },
+    "require": {},
+    "suggest": {},
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "keywords": ["vzenix", "configuration"],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vzenix/configuration"
+        }
+    ]
+}

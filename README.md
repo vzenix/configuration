@@ -1,2 +1,4 @@
-# configuration
-Basic php configuration library
+# Idiomas / Languages
+
+* [Español](README_ES)
+* [English](README_EN)
