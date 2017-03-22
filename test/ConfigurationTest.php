@@ -8,6 +8,8 @@
  *
  * Launch sample:
  * 
+ *  - Windows: vendor\bin\phpunit.bat "./test/ConfigurationTest.php"
+ *  - Linux: vendor\bin\phpunit "./test/ConfigurationTest.php"
  * 
  */
 
@@ -19,6 +21,7 @@ class ConfigurationTest extends \PHPUnit\Framework\TestCase
 {
 
     /**
+     * Instance for work
      * @var \VZenix\Configuration\Configuration
      */
     private $_iConfig = null;
@@ -132,6 +135,7 @@ class ConfigurationTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
+     * Test the load of predefined configuration 
      * @depends testTestTheMethodSetAndGet
      * @depends testTestTheMethodRemove
      */
