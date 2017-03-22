@@ -80,8 +80,10 @@ define("___MCONSTANTS___", $_miProperties);
 <?php
 // test.php
 $_iMiConf = new \VZenix\Configuration\Configuration();
+$_miPropertyA = $_iMiConf->get("C03");
+
 $_iMiConf->set("conf_01", "TEST CASE");
-$_miProperty = $_iMiConf->get("conf_01");
+$_miPropertyB = $_iMiConf->get("conf_01");
 ```
 
 ## Licencia
