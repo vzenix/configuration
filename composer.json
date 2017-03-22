@@ -20,7 +20,6 @@
     "require-dev": {
         "phpunit/phpunit": "6.0.*"
     },
-    "require": {},
     "suggest": {},
     "autoload": {
         "psr-0": {
