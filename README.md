@@ -1,4 +1,4 @@
 # Idiomas / Languages
 
-* [Español](README_ES)
-* [English](README_EN)
+* [Español](https://github.com/vzenix/configuration/blob/master/README_ES.md)
+* [English](https://github.com/vzenix/configuration/blob/master/README_EN.md)
