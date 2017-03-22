@@ -17,9 +17,6 @@
     "support": {
         "email": "library.configuration@vzenix.es"
     },
-    "require-dev": {
-        "phpunit/phpunit": "6.0.9"
-    },
     "suggest": {},
     "autoload": {
         "psr-0": {
