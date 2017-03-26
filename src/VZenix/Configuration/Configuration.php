@@ -32,6 +32,26 @@ class Configuration
     const LANG_CLASS = "___MLANG_CLASS___";
 
     /**
+     * Static instance for cache
+     * @var \VZenix\Configuration\Configuration
+     */
+    private static $_iConfiguration = null;
+
+    /**
+     * Get the instance of the active configuration instance
+     * @return \VZenix\Configuration\Configuration
+     */
+    public static function GetInstance(): \VZenix\Configuration\Configuration
+    {
+        if (is_null(self::$_iConfiguration))
+        {
+            self::$_iConfiguration = new \VZenix\Configuration\Configuration();
+        }
+
+        return self::$_iConfiguration;
+    }
+
+    /**
      * Store
      * @var array
      */

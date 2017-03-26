@@ -42,7 +42,7 @@ el código y añadirlo de la siguiente forma:
 #!php
 <?php
 require_once "PATH/TO/LIBRARY/custom_loader.php"
-$_iMiConf = new \VZenix\Configuration\Configuration();
+$_iMiConf = \VZenix\Configuration\Configuration::GetInstance();
 ```
 
 ## Ejemplos
@@ -53,7 +53,7 @@ Ejemplo 1: Sin precarga de información
 #!php
 <?php
 // test.php
-$_iMiConf = new \VZenix\Configuration\Configuration();
+$_iMiConf = \VZenix\Configuration\Configuration::GetInstance();
 $_iMiConf->set("conf_01", "TEST CASE");
 $_miProperty = $_iMiConf->get("conf_01");
 ```
@@ -79,7 +79,7 @@ define("___MCONSTANTS___", $_miProperties);
 #!php
 <?php
 // test.php
-$_iMiConf = new \VZenix\Configuration\Configuration();
+$_iMiConf = \VZenix\Configuration\Configuration::GetInstance();
 $_miPropertyA = $_iMiConf->get("C03");
 
 $_iMiConf->set("conf_01", "TEST CASE");
